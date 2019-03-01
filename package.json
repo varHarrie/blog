@@ -1,0 +1,49 @@
+{
+  "name": "varharrie-blog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fragmentation of notes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html -p 80",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varHarrie/varharrie.github.io.git"
+  },
+  "keywords": [],
+  "author": "varHarrie<varharrie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varHarrie/varharrie.github.io/issues"
+  },
+  "homepage": "https://github.com/varHarrie/varharrie.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/styled-components": "^4.1.11",
+    "parcel-bundler": "^1.11.0",
+    "styled-components": "^4.1.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/history": "^4.7.2",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-router": "^4.4.4",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-transition-group": "^2.0.16",
+    "history": "^4.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.6.0"
+  }
+}
