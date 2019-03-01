@@ -1,7 +1,8 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import { Route, Router, Switch, Redirect } from 'react-router'
+import { Route, Router, Switch } from 'react-router'
 import { createBrowserHistory } from 'history'
+import { hot } from 'react-hot-loader'
 
 import ArticleView from './views/ArticleView'
 import BlogView from './views/BlogView'
@@ -12,7 +13,7 @@ const history = createBrowserHistory()
 
 export interface Props {}
 
-export default function App(props: Props) {
+function App(props: Props) {
   return (
     <Router history={history}>
       <Wrapper>
@@ -31,7 +32,7 @@ export default function App(props: Props) {
   )
 }
 
-App.displayName = 'App'
+export default hot(module)(App)
 
 const Wrapper = styled.div`
   margin: 0 auto;
